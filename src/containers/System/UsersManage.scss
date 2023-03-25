@@ -46,3 +46,41 @@
         color: red;
     }
   }
+  //modal add user
+.modal-user-container {
+  .modal-content {
+    .modal-header {
+      button{
+        background-color:transparent !important;
+        border: none !important;
+        color: white;
+        font-size: 30px;
+      }
+    }
+  }
+  
+  .modal-user-body{
+  display: flex !important;
+  gap: 10px;
+  flex-wrap: wrap;
+    .input-container {
+      display: flex;
+      flex-direction:column;
+      width: 49%;
+      &.max-width-input {
+        width: 100%;
+      }
+      input{
+        border-radius: 3px;
+        border: 1px solid gray;
+        outline: none;
+        height:30px;
+        padding: 0 10px;
+      }
+    }
+   
+  }
+  
+
+
+}
